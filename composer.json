@@ -1,0 +1,12 @@
+{
+    "name": "stwwo/cyb",
+    "require": {
+        "altorouter/altorouter": "^2.0"
+    },
+    "authors": [
+        {
+            "name": "ww0k",
+            "email": "st.wwok@gmail.com"
+        }
+    ]
+}

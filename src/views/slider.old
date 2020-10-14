@@ -1,0 +1,17 @@
+<div class="carousel-inner">
+    <div class="carousel-item active">
+        <img src="../../img/slider.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption container">
+            <h5 class="enterprise-name">COMPARE YOUR BROKERS</h5>
+            <p>DQZDQZDQZDQZDQZDQZDQZ</p>
+        </div>
+    </div>
+    <div class="cta-container d-flex">
+        <div class="cta">
+            <p><a href="questionnaire.php">Le broker qui vous convient</a></p>
+        </div>
+        <div class="cta">
+            <p><a href="comparateur">Le comparateur de brokers</a></p>
+        </div>
+    </div>
+</div>

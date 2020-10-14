@@ -1,0 +1,12 @@
+RewriteEngine on
+	## http -> https
+RewriteCond %{HTTPS} off
+RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [R=301,L,NE,QSA]
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule . /public/index.php [L]
+
+RewriteCond %{HTTP_HOST} compareyourbrokers\.com [NC]
+RewriteCond %{REQUEST_URI} ^/$
+RewriteRule ^(.*)$ /public/index.php [L]
+
